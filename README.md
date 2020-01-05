@@ -1,5 +1,3 @@
-ReadMe
-
 ### Background
 
 Parents of pediatric cancer patients at the Duke Children's Hospital are given a handbook on the information that they need to know -- what cancer is, how cancer can be treated, and what they can do to take care of their child while they undergo treatment. However, there are no such defined resources for understanding cancer available to the patients themselves. This is an issue because these children might have a hard time understanding such a complex disease and the series of treatments that they have to undergo, which can cause them to be scared and unwilling to accept treatment, or struggle to cope with their illness.
