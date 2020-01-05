@@ -1,0 +1,10 @@
+# App Maintenance
+
+### Install instructions
+Does not apply -- Central Line and Cancer are not meant to be installed as standalone apps. 
+
+### Changing key non-programming components of the app
+Does not apply -- both games do not require database information, data files, resource links, phone numbers, server addresses, etc.
+
+### Open source tools/libraries used
+None
