@@ -1,5 +1,3 @@
-Backlog
-
 ### Central Line
 * additional skins available in the game store to further modify player appearance
 * save most recent score/high score to display at the beginning/end of each game
