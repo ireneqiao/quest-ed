@@ -1,0 +1,650 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC9450D42344551600FA8820 /* MenuScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9450D32344551600FA8820 /* MenuScene.swift */; };
+		EC9450D623445F9500FA8820 /* InstructionsScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC9450D523445F9500FA8820 /* InstructionsScene.swift */; };
+		EC98D99723413D2200D020E9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98D99623413D2200D020E9 /* AppDelegate.swift */; };
+		EC98D99923413D2200D020E9 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC98D99823413D2200D020E9 /* GameScene.sks */; };
+		EC98D99B23413D2200D020E9 /* Actions.sks in Resources */ = {isa = PBXBuildFile; fileRef = EC98D99A23413D2200D020E9 /* Actions.sks */; };
+		EC98D99D23413D2200D020E9 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98D99C23413D2200D020E9 /* GameScene.swift */; };
+		EC98D99F23413D2200D020E9 /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98D99E23413D2200D020E9 /* GameViewController.swift */; };
+		EC98D9A223413D2200D020E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98D9A023413D2200D020E9 /* Main.storyboard */; };
+		EC98D9A423413D2300D020E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC98D9A323413D2300D020E9 /* Assets.xcassets */; };
+		EC98D9A723413D2300D020E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EC98D9A523413D2300D020E9 /* LaunchScreen.storyboard */; };
+		EC98D9B223413D2300D020E9 /* CancerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98D9B123413D2300D020E9 /* CancerTests.swift */; };
+		EC98D9BD23413D2300D020E9 /* CancerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC98D9BC23413D2300D020E9 /* CancerUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC98D9AE23413D2300D020E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC98D98B23413D2200D020E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC98D99223413D2200D020E9;
+			remoteInfo = Cancer;
+		};
+		EC98D9B923413D2300D020E9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC98D98B23413D2200D020E9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC98D99223413D2200D020E9;
+			remoteInfo = Cancer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC9450D32344551600FA8820 /* MenuScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuScene.swift; sourceTree = "<group>"; };
+		EC9450D523445F9500FA8820 /* InstructionsScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InstructionsScene.swift; sourceTree = "<group>"; };
+		EC98D99323413D2200D020E9 /* Cancer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Cancer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98D99623413D2200D020E9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC98D99823413D2200D020E9 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EC98D99A23413D2200D020E9 /* Actions.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = Actions.sks; sourceTree = "<group>"; };
+		EC98D99C23413D2200D020E9 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EC98D99E23413D2200D020E9 /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EC98D9A123413D2200D020E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EC98D9A323413D2300D020E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC98D9A623413D2300D020E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EC98D9A823413D2300D020E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC98D9AD23413D2300D020E9 /* CancerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CancerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98D9B123413D2300D020E9 /* CancerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancerTests.swift; sourceTree = "<group>"; };
+		EC98D9B323413D2300D020E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC98D9B823413D2300D020E9 /* CancerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CancerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC98D9BC23413D2300D020E9 /* CancerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CancerUITests.swift; sourceTree = "<group>"; };
+		EC98D9BE23413D2300D020E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC98D99023413D2200D020E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98D9AA23413D2300D020E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98D9B523413D2300D020E9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC9450CF2344542A00FA8820 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				EC98D99623413D2200D020E9 /* AppDelegate.swift */,
+				EC98D99E23413D2200D020E9 /* GameViewController.swift */,
+				EC98D9A023413D2200D020E9 /* Main.storyboard */,
+				EC98D9A523413D2300D020E9 /* LaunchScreen.storyboard */,
+			);
+			path = Main;
+			sourceTree = "<group>";
+		};
+		EC9450D02344543E00FA8820 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				EC98D99823413D2200D020E9 /* GameScene.sks */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		EC9450D12344545100FA8820 /* Scene Files */ = {
+			isa = PBXGroup;
+			children = (
+				EC98D99C23413D2200D020E9 /* GameScene.swift */,
+				EC9450D32344551600FA8820 /* MenuScene.swift */,
+				EC9450D523445F9500FA8820 /* InstructionsScene.swift */,
+			);
+			path = "Scene Files";
+			sourceTree = "<group>";
+		};
+		EC9450D22344549100FA8820 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC98D99A23413D2200D020E9 /* Actions.sks */,
+				EC98D9A323413D2300D020E9 /* Assets.xcassets */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC98D98A23413D2200D020E9 = {
+			isa = PBXGroup;
+			children = (
+				EC98D99523413D2200D020E9 /* Cancer */,
+				EC98D9B023413D2300D020E9 /* CancerTests */,
+				EC98D9BB23413D2300D020E9 /* CancerUITests */,
+				EC98D99423413D2200D020E9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC98D99423413D2200D020E9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC98D99323413D2200D020E9 /* Cancer.app */,
+				EC98D9AD23413D2300D020E9 /* CancerTests.xctest */,
+				EC98D9B823413D2300D020E9 /* CancerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC98D99523413D2200D020E9 /* Cancer */ = {
+			isa = PBXGroup;
+			children = (
+				EC9450CF2344542A00FA8820 /* Main */,
+				EC9450D12344545100FA8820 /* Scene Files */,
+				EC9450D02344543E00FA8820 /* Scenes */,
+				EC9450D22344549100FA8820 /* Resources */,
+				EC98D9A823413D2300D020E9 /* Info.plist */,
+			);
+			path = Cancer;
+			sourceTree = "<group>";
+		};
+		EC98D9B023413D2300D020E9 /* CancerTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC98D9B123413D2300D020E9 /* CancerTests.swift */,
+				EC98D9B323413D2300D020E9 /* Info.plist */,
+			);
+			path = CancerTests;
+			sourceTree = "<group>";
+		};
+		EC98D9BB23413D2300D020E9 /* CancerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC98D9BC23413D2300D020E9 /* CancerUITests.swift */,
+				EC98D9BE23413D2300D020E9 /* Info.plist */,
+			);
+			path = CancerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC98D99223413D2200D020E9 /* Cancer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC98D9C123413D2300D020E9 /* Build configuration list for PBXNativeTarget "Cancer" */;
+			buildPhases = (
+				EC98D98F23413D2200D020E9 /* Sources */,
+				EC98D99023413D2200D020E9 /* Frameworks */,
+				EC98D99123413D2200D020E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Cancer;
+			productName = Cancer;
+			productReference = EC98D99323413D2200D020E9 /* Cancer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC98D9AC23413D2300D020E9 /* CancerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC98D9C423413D2300D020E9 /* Build configuration list for PBXNativeTarget "CancerTests" */;
+			buildPhases = (
+				EC98D9A923413D2300D020E9 /* Sources */,
+				EC98D9AA23413D2300D020E9 /* Frameworks */,
+				EC98D9AB23413D2300D020E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC98D9AF23413D2300D020E9 /* PBXTargetDependency */,
+			);
+			name = CancerTests;
+			productName = CancerTests;
+			productReference = EC98D9AD23413D2300D020E9 /* CancerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC98D9B723413D2300D020E9 /* CancerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC98D9C723413D2300D020E9 /* Build configuration list for PBXNativeTarget "CancerUITests" */;
+			buildPhases = (
+				EC98D9B423413D2300D020E9 /* Sources */,
+				EC98D9B523413D2300D020E9 /* Frameworks */,
+				EC98D9B623413D2300D020E9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC98D9BA23413D2300D020E9 /* PBXTargetDependency */,
+			);
+			name = CancerUITests;
+			productName = CancerUITests;
+			productReference = EC98D9B823413D2300D020E9 /* CancerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC98D98B23413D2200D020E9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = "Paulina Asturias";
+				TargetAttributes = {
+					EC98D99223413D2200D020E9 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					EC98D9AC23413D2300D020E9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = EC98D99223413D2200D020E9;
+					};
+					EC98D9B723413D2300D020E9 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = EC98D99223413D2200D020E9;
+					};
+				};
+			};
+			buildConfigurationList = EC98D98E23413D2200D020E9 /* Build configuration list for PBXProject "Cancer" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC98D98A23413D2200D020E9;
+			productRefGroup = EC98D99423413D2200D020E9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC98D99223413D2200D020E9 /* Cancer */,
+				EC98D9AC23413D2300D020E9 /* CancerTests */,
+				EC98D9B723413D2300D020E9 /* CancerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC98D99123413D2200D020E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98D9A223413D2200D020E9 /* Main.storyboard in Resources */,
+				EC98D99923413D2200D020E9 /* GameScene.sks in Resources */,
+				EC98D9A423413D2300D020E9 /* Assets.xcassets in Resources */,
+				EC98D9A723413D2300D020E9 /* LaunchScreen.storyboard in Resources */,
+				EC98D99B23413D2200D020E9 /* Actions.sks in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98D9AB23413D2300D020E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98D9B623413D2300D020E9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC98D98F23413D2200D020E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98D99D23413D2200D020E9 /* GameScene.swift in Sources */,
+				EC9450D42344551600FA8820 /* MenuScene.swift in Sources */,
+				EC98D99F23413D2200D020E9 /* GameViewController.swift in Sources */,
+				EC9450D623445F9500FA8820 /* InstructionsScene.swift in Sources */,
+				EC98D99723413D2200D020E9 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98D9A923413D2300D020E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98D9B223413D2300D020E9 /* CancerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC98D9B423413D2300D020E9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC98D9BD23413D2300D020E9 /* CancerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC98D9AF23413D2300D020E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC98D99223413D2200D020E9 /* Cancer */;
+			targetProxy = EC98D9AE23413D2300D020E9 /* PBXContainerItemProxy */;
+		};
+		EC98D9BA23413D2300D020E9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC98D99223413D2200D020E9 /* Cancer */;
+			targetProxy = EC98D9B923413D2300D020E9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EC98D9A023413D2200D020E9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC98D9A123413D2200D020E9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EC98D9A523413D2300D020E9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EC98D9A623413D2300D020E9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EC98D9BF23413D2300D020E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC98D9C023413D2300D020E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = NO;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC98D9C223413D2300D020E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP8B7AY288;
+				INFOPLIST_FILE = Cancer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.bowenese.Cancer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC98D9C323413D2300D020E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = TP8B7AY288;
+				INFOPLIST_FILE = Cancer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = org.bowenese.Cancer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC98D9C523413D2300D020E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44ZJ9AB9WC;
+				INFOPLIST_FILE = CancerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Compsci408.CancerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cancer.app/Cancer";
+			};
+			name = Debug;
+		};
+		EC98D9C623413D2300D020E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44ZJ9AB9WC;
+				INFOPLIST_FILE = CancerTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Compsci408.CancerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Cancer.app/Cancer";
+			};
+			name = Release;
+		};
+		EC98D9C823413D2300D020E9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44ZJ9AB9WC;
+				INFOPLIST_FILE = CancerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Compsci408.CancerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cancer;
+			};
+			name = Debug;
+		};
+		EC98D9C923413D2300D020E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 44ZJ9AB9WC;
+				INFOPLIST_FILE = CancerUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Compsci408.CancerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Cancer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC98D98E23413D2200D020E9 /* Build configuration list for PBXProject "Cancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98D9BF23413D2300D020E9 /* Debug */,
+				EC98D9C023413D2300D020E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC98D9C123413D2300D020E9 /* Build configuration list for PBXNativeTarget "Cancer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98D9C223413D2300D020E9 /* Debug */,
+				EC98D9C323413D2300D020E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC98D9C423413D2300D020E9 /* Build configuration list for PBXNativeTarget "CancerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98D9C523413D2300D020E9 /* Debug */,
+				EC98D9C623413D2300D020E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC98D9C723413D2300D020E9 /* Build configuration list for PBXNativeTarget "CancerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC98D9C823413D2300D020E9 /* Debug */,
+				EC98D9C923413D2300D020E9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC98D98B23413D2200D020E9 /* Project object */;
+}

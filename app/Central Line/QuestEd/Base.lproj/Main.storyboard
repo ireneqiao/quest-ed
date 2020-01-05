@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14868" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BV1-FR-VrT">
+    <device id="ipad9_7" orientation="landscape" layout="fullscreen" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14824"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Game View Controller-->
+        <scene sceneID="tXr-a1-R10">
+            <objects>
+                <viewController id="BV1-FR-VrT" customClass="GameViewController" customModule="QuestEd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" multipleTouchEnabled="YES" contentMode="scaleToFill" id="3se-qz-xqx" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="4qk-I5-YsI"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="SZV-WD-TEh" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2144" y="776"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="7uh-6X-QGY">
+            <objects>
+                <viewController id="4Q4-bG-2kO" customClass="GameViewController" customModule="QuestEd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Y7g-fm-AIA" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="1024" height="768"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro-background" translatesAutoresizingMaskIntoConstraints="NO" id="Xv6-IN-Npr">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="X0O-My-fkH">
+                                <rect key="frame" x="497" y="438" width="372" height="149"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button" image="play-button"/>
+                                <connections>
+                                    <segue destination="Nh5-bK-t6m" kind="show" id="y9D-Yr-eXv"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Wq8-uo-juQ"/>
+                    </view>
+                    <connections>
+                        <outlet property="playButton" destination="X0O-My-fkH" id="TJh-0I-F4w"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ZTW-Ei-zq0" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="139.67789165446558" y="775.78125"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="Mjr-aT-i8H">
+            <objects>
+                <viewController id="zCK-Fh-qMo" customClass="GameViewController" customModule="QuestEd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kn2-nn-1zW" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro3-background" translatesAutoresizingMaskIntoConstraints="NO" id="WNH-Jw-eGc">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro-text3" translatesAutoresizingMaskIntoConstraints="NO" id="RwV-jS-reu">
+                                <rect key="frame" x="20" y="20" width="381" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro-text4" translatesAutoresizingMaskIntoConstraints="NO" id="FIy-yX-Hze">
+                                <rect key="frame" x="965" y="803" width="381" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="G9p-wX-MdK"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="nQj-nN-Qti" appends="YES" id="w7v-Cl-YY7"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="QCs-9X-TMa" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="nQj-nN-Qti">
+                    <connections>
+                        <segue destination="BV1-FR-VrT" kind="show" id="MDz-1O-N0F"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="1470.5710102489018" y="775.1953125"/>
+        </scene>
+        <!--Game View Controller-->
+        <scene sceneID="4hK-Aj-Y8x">
+            <objects>
+                <viewController id="Nh5-bK-t6m" customClass="GameViewController" customModule="QuestEd" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="9Ht-lQ-7kJ" customClass="SKView">
+                        <rect key="frame" x="0.0" y="0.0" width="712" height="728"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro2-background" translatesAutoresizingMaskIntoConstraints="NO" id="fkG-gK-qaT">
+                                <rect key="frame" x="0.0" y="0.0" width="1366" height="1024"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MYN-mD-Vlv" appends="YES" id="8KO-iY-hUW"/>
+                                </connections>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro-text1" translatesAutoresizingMaskIntoConstraints="NO" id="x02-xn-GcD">
+                                <rect key="frame" x="20" y="24" width="381" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="intro-text2" translatesAutoresizingMaskIntoConstraints="NO" id="hTo-vh-Lu4">
+                                <rect key="frame" x="965" y="24" width="381" height="234"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <gestureRecognizers/>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="MYN-mD-Vlv" appends="YES" id="gMx-CC-q79"/>
+                                </connections>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <gestureRecognizers/>
+                        <viewLayoutGuide key="safeArea" id="Y8K-Vg-GQQ"/>
+                        <connections>
+                            <outletCollection property="gestureRecognizers" destination="MYN-mD-Vlv" appends="YES" id="JF0-Ri-URz"/>
+                        </connections>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="kbI-jN-Z9A" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <tapGestureRecognizer id="MYN-mD-Vlv">
+                    <connections>
+                        <segue destination="zCK-Fh-qMo" kind="show" id="dRA-tI-KbS"/>
+                    </connections>
+                </tapGestureRecognizer>
+            </objects>
+            <point key="canvasLocation" x="818.30161054172765" y="775.1953125"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="intro-background" width="2732" height="2048"/>
+        <image name="intro-text1" width="931" height="595"/>
+        <image name="intro-text2" width="931" height="595"/>
+        <image name="intro-text3" width="1039" height="517"/>
+        <image name="intro-text4" width="1039" height="517"/>
+        <image name="intro2-background" width="2732" height="2048"/>
+        <image name="intro3-background" width="2732" height="2048"/>
+        <image name="play-button" width="1211" height="510"/>
+    </resources>
+</document>
